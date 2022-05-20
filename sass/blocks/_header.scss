@@ -1,0 +1,133 @@
+.header-item {
+  padding: 11px 0;
+}
+
+.header-inner {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  @include header_logo 
+}
+
+.header-inner--link {
+  display: flex;
+  margin-right: 30px;
+  align-items: center;
+}
+
+.header-address {
+  margin-left: 10px;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  color: #333333;
+}
+
+.header-tel {
+  margin-left: 10px;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #333333;
+}
+
+.header-tel:hover {
+  color: #FFBD54;
+}
+
+.header-tel:active {
+  color: #FFBD54;
+  opacity: 0.6;
+}
+
+.span-tel {
+  margin-left: 10px;
+  width: 4px;
+  height: 4px;
+  display: block;
+  background-color: #FFBD54;
+  border-radius: 50%;
+  align-items: center;
+}
+
+.header-clock {
+  margin-left: 10px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  color: #333333;
+}
+
+.header-item--in {
+  position: relative;
+  padding: 20px 0;
+  border-top: 1px solid #F3F3F3;
+  border-bottom: 1px solid #F3F3F3;
+}
+
+.header-item--in::before {
+  display: block; 
+  position: absolute;
+  top: calc(-15px);
+  left: calc(75px);
+  width: 177px;
+  height: 86px;
+  background-image: url('../images/logo.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  content: '';
+}
+
+.header-item--in:hover::before {
+  opacity: 0.8;
+}
+
+.header-item--in:active::before {
+  opacity: 0.6  ;
+}
+
+.header-link {
+  margin-right: 40px;
+}
+
+.header-link--in {
+  position: relative;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #333333;
+  margin-left: 10px ;
+}
+
+.header-link--in::after {
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 0;
+  z-index: -1;
+  background-color: #F4FFAD;
+  content: "";
+}
+
+.header-link--in:hover::after {
+  height: 50%;
+}
+
+.header-link--in:active::after {
+  height: 50%;
+  background-color: #F4FFAD;
+  opacity: 0.6;
+}
+
+.header-link--go {
+  margin-right: 30px;
+}

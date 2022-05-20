@@ -1,0 +1,131 @@
+.main-article {
+  width: 100%;
+  margin-bottom: 265px;
+}
+
+.main-article--in {
+  text-align: center;
+}
+
+.main-clock {
+  text-align: end;
+  margin-top: 20px;
+  margin-right: 20px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #949494;
+}
+
+.main-article--in__go {
+  margin-top: 0;
+  margin-bottom: 80px;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 20px;
+  color: #333333;
+}
+
+.main-article-title {
+  display: flex;
+  justify-content: space-evenly;
+  @include header_logo 
+}
+
+.main-article--item {
+  width: 307px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #E4E4E2;
+  border-radius: 5px;
+}
+
+.article--item-in {
+  margin-top: 0;
+  margin-bottom: 10px;
+  width: 182px;
+  text-align: left;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 25px;
+  color: #000000;
+}
+
+.main-article-lead {
+  padding: 2px 22px 22px;
+}
+
+.article--item-go {
+  width: 244px;
+  margin-top: 0;
+  margin-bottom: 37px;
+  text-align: left;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #949494;
+}
+
+.article--item-link {
+  align-items: center;
+}
+
+.article-link {
+  position: relative;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #333333;
+}
+
+.article-link::after {
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 0;
+  z-index: -1;
+  background-color: #F4FFAD;
+  content: "";
+}
+
+.article-link:hover::after {
+  height: 40%;
+}
+
+.article-link:active::after {
+  height: 40%;
+  background-color: #F4FFAD;
+  opacity: 0.6;
+}
+
+.article--box {
+  display: flex;
+  border: 1px solid #E4E4E2;
+  border-radius: 5px;
+}
+
+.article-inner--in {
+  padding: 20px;
+}
+.article-href {
+  margin-right: 10px;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #3D9CEA;
+}
+.main-clock--in {
+  margin-left: 10px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #949494;
+}
+
+
+
+

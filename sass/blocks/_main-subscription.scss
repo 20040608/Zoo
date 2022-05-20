@@ -1,0 +1,70 @@
+.main-lead--item {
+  position: relative;
+  padding: 235px 0 ;
+}
+
+.main-lead--item::before {
+  display: block; 
+  position: absolute;
+  top: calc(99px);
+  left: calc(665px);
+  width: 613px;
+  height: 481px;
+  background-image: url('../images/dobbi.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  content: '';
+}
+
+.main-lead--title {
+  padding: 90px 0;
+  background-image: url('../images/vola.png');
+  background-repeat: no-repeat;
+  background-size:  100% ;
+}
+
+.main-lead {
+  text-align: center;
+  padding-left: 80px;
+}
+
+.main-lead--go {
+  margin-top: 0;
+  margin-bottom: 32px;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+  padding-left: 80px;
+}
+
+.main-lead-in {
+  border: 1px solid #fff;
+  border-radius: 5px;
+  margin-right: 20px;
+  margin-left: 164px;
+  padding: 18px 147px 12px 22px;
+}
+
+.main-lead--button {
+  padding: 18px 53px 12px 51px;
+  background-color: #333;
+  color: #fff;
+  border-radius: 3px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #FFFFFF;
+  align-items: center;
+  border: none;
+}
+
+.main-lead--button:hover {
+  opacity: 0.8;
+}
+
+.main-lead--button:active {
+  opacity: 0.6;
+}

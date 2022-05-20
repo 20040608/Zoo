@@ -1,0 +1,78 @@
+
+.hero-logo {
+  background-image: url('../images/hero-bg.png');
+  background-repeat: no-repeat;
+  background-size: 870px 835px;
+  background-position: -1% 350%;
+}
+
+.hero {
+  position: relative;
+  padding: 153px 0 311px;
+  display: flex;
+  justify-content: end; 
+}
+
+.hero::before {
+  display: block; 
+  position: absolute;
+  top: calc(315px);
+  left: calc(1116px);
+  width: 350px;
+  height: 430px;
+  z-index: -1;
+  background-image: url('../images/parrot.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  content: '';
+}
+
+.hero-item--link {
+  position: relative;
+  width: 100%;
+  max-width: 608px;
+  margin-right: 50px;
+  
+}
+
+.hero-title {
+  margin-top: 0;
+  margin-bottom: 29px;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 64px;
+  color: #333333;
+}
+
+.hero-title--in {
+  color: #78C0DE;
+}
+
+.hero-item {
+  width: 495px;
+  margin-top: 0;
+  margin-bottom: 38px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #949494;
+}
+
+.hero-item--in {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #FFFFFF;
+  background: #333333;
+  border-radius: 3px;
+  padding: 15px 48px;
+}
+
+.hero-item--in:hover {
+  opacity: 0.8;
+}
+
+.hero-item--in:active {
+  opacity: 0.6;
+}

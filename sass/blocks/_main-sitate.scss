@@ -1,0 +1,64 @@
+.sitate-logo {
+  padding: 73px 0 191px;
+  text-align: center;
+}
+
+.sitate-span {
+  margin-left: auto;
+  margin-right: auto;
+  width: 140px;
+  height: 1px;
+  display: block;
+  background-color: #DBDBDB;
+  margin-bottom: 43px;
+
+}
+
+.sitate {
+  position: relative;
+  margin-top: 0;
+  margin-bottom: 35px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 753px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: center;
+  color: #949494;
+}
+
+.sitate::before {
+  display: block; 
+  position: absolute;
+  top: calc(-67px);
+  left: calc(-130px);
+  width: 75px;
+  height: 75px;
+  background-image: url('../images/“.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  content: '';
+}
+
+.sitate-text {
+  position: relative;
+  text-align: center;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+  color: #333333;
+}
+
+.sitate-text::before {
+  display: block; 
+  position: absolute;
+  top: calc(-120px);
+  left: calc(1100px);
+  width: 75px;
+  height: 75px;
+  background-image: url('../images/“2.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  content: '';
+}
